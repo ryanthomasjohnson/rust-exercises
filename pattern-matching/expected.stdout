@@ -1,0 +1,7 @@
+evaluate(Ok(Some(5))) -> Ok(5)
+evaluate(Ok(Some(100))) -> Err("`100` is invalid!")
+evaluate(Ok(None)) -> Ok(0)
+evaluate(Err("this is an error")) -> Err("this is an error")
+[0, 1, 2, 3, 0] without 0's is Ok([1, 2, 3])
+[1, 2, 3] without 0's is Err(())
+[0] without 0's is Ok([])

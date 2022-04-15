@@ -1,0 +1,5 @@
+Double Some(4) is Some(8)
+Double None is None
+Double Some(4) or 0 is 8
+Double None or 0 is 0
+[Some(1), None, Some(2), None] filtered is [1, 2]
